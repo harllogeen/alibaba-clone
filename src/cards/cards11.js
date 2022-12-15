@@ -1,6 +1,6 @@
-import { useState,useEffect } from 'react';
+import { useState, useEffect } from 'react';
 function Cards11() {
-    
+
     const [scroll, setScroll] = useState(true)
     useEffect(() => {
         setTimeout(() => {
@@ -37,9 +37,9 @@ function Cards11() {
                 }
             })
         }, 2000)
-    }, [])  
-    
-    
+    }, [])
+
+
     return (
         <div id="" className="cardhover" >
             <div className="cardhover1" >

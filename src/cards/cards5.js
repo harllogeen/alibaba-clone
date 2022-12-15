@@ -4,45 +4,43 @@ function Cards5() {
     const arr = [
         {
             name: "Premium OEM Factories",
-            description: "Customization service available",
-            img: "https://s.alicdn.com/@sc04/kf/H5fd2a2bb634d4ef9acff0a450f3a1caeX.jpg_220x220.jpg",
+            description: "One-stop services for your store",
+            img: "./assets/tire1.jpg",
         },
         {
-            name: "Premium OEM Factories",
-            description: "Customization service available",
-            img: "https://s.alicdn.com/@sc04/kf/H5fd2a2bb634d4ef9acff0a450f3a1caeX.jpg_220x220.jpg",
+            name: "Top sales",
+            description: "Motocycle Parts & Accessories",
+            img: "./assets/tire3.jpg",
         },
         {
-            name: "Premium OEM Factories",
-            description: "Customization service available",
-            img: "https://s.alicdn.com/@sc04/kf/H5fd2a2bb634d4ef9acff0a450f3a1caeX.jpg_220x220.jpg",
+            name: "Marine Parts & Accessories",
+            
+            img: "./assets/tire2.jpg",
         },
         {
-            name: "Premium OEM Factories",
-            description: "Customization service available",
-            img: "https://s.alicdn.com/@sc04/kf/H5fd2a2bb634d4ef9acff0a450f3a1caeX.jpg_220x220.jpg",
+            name: "Wheels, Tires & Accessories",
+           
+            img: "./assets/tire8.jpg",
         },
     ]
     const arr2 = [
         {
-            name: "Premium OEM Factories",
-            description: "Customization service available",
-            img: "https://s.alicdn.com/@sc04/kf/H5fd2a2bb634d4ef9acff0a450f3a1caeX.jpg_220x220.jpg",
+            name: "Delivered Duty Paid (DDP)",
+            description: "Shipping and import duties included",
+            img: "./assets/tire4.jpg",
         },
         {
-            name: "Premium OEM Factories",
-            description: "Customization service available",
-            img: "https://s.alicdn.com/@sc04/kf/H5fd2a2bb634d4ef9acff0a450f3a1caeX.jpg_220x220.jpg",
+            name: "Recovery & Off-road Accessories",
+           
+            img: "./assets/tire6.jpg",
         },
         {
-            name: "Premium OEM Factories",
-            description: "Customization service available",
-            img: "https://s.alicdn.com/@sc04/kf/H5fd2a2bb634d4ef9acff0a450f3a1caeX.jpg_220x220.jpg",
+            name: "Authomotive Part & Accessories",
+            img: "./assets/tire7.jpg",
         },
         {
-            name: "Premium OEM Factories",
-            description: "Customization service available",
-            img: "https://s.alicdn.com/@sc04/kf/H5fd2a2bb634d4ef9acff0a450f3a1caeX.jpg_220x220.jpg",
+            name: "Bus Part & Accessories",
+            img: "./assets/tire5.jpg",
         },
     ]
     return (
@@ -60,7 +58,7 @@ function Cards5() {
                     {arr.map((e, i) => {
                         return (
                             <div key={i} className="map3 child">
-                                <h4 className="mapchild">{e.name}</h4>
+                                <h3 className="mapchild bold">{e.name}</h3>
                                 <p className="mapchild2">{e.description}</p>
                                 <img className="mapchild3" src={e.img} />
                             </div>
@@ -69,7 +67,7 @@ function Cards5() {
                     {arr2.map((e, i) => {
                         return (
                             <div key={i} className="map4 child">
-                                <h4 className="mapchild">{e.name}</h4>
+                                <h3 className="mapchild bold">{e.name}</h3>
                                 <p className="mapchild2">{e.description}</p>
                                 <img className="mapchild3" src={e.img} />
                             </div>

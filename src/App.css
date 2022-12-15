@@ -936,6 +936,9 @@ h3.consth3 {
     margin: 0;
     padding: 0;
 }
+ img .sild-img {
+    border-radius: 30px;
+}
 
 h3.consth4 {
     font-size: 28px;
@@ -1486,4 +1489,7 @@ li.country-li-flags {
 }
 ul.ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-light {
     display: flex;
+}
+ .bold {
+    font-weight: bolder;
 }

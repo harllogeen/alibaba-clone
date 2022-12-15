@@ -7,6 +7,12 @@ import Dropdown5 from './dropdown5';
 import Dropdown6 from './dropdown6';
 import Dropdown7 from './dropdown7';
 import Dropdown8 from './dropdown8';
+import img1 from '../slider/images/img1.jpg';
+import img2 from '../slider/images/img2.jpg';
+import img3 from '../slider/images/img3.jpg';
+import img4 from '../slider/images/img4.jpg';
+import img5 from '../slider/images/img5.png';
+import img6 from '../slider/images/img6.jpg'
 
 function Slider1() {
   const contentStyle = {
@@ -38,23 +44,23 @@ function Slider1() {
         <div className="slider4" >
           <Carousel autoplay>
             <div>
-              <img className="slid-img" src="https://s.alicdn.com/@img/imgextra/i2/O1CN01UKsNwd1QnfAFepFwM_!!6000000002021-2-tps-990-400.png" />
+              <img className="slid-img" src={img1} />
             </div>
             <div>
-              <img className="slid-img" src="https://s.alicdn.com/@img/imgextra/i3/O1CN01QEL53b1ZNOzSa5hHT_!!6000000003182-0-tps-990-400.jpg" />
+              <img className="slid-img" src={img6} />
             </div>
             <div>
-              <img className="slid-img" src="https://s.alicdn.com/@img/imgextra/i3/O1CN01VNUdjq1ftoijrNU7P_!!6000000004065-2-tps-990-400.png" />
+              <img className="slid-img" src={img2} />
 
             </div>
             <div>
-              <img className="slid-img" src="https://s.alicdn.com/@img/tfs/TB1e.XyReL2gK0jSZFmXXc7iXXa-990-400.png" />
+              <img className="slid-img" src={img3} />
             </div>
             <div>
-              <img className="slid-img" src="https://s.alicdn.com/@img/imgextra/i2/O1CN01eDYIeP1DSyFsa06Oi_!!6000000000216-0-tps-990-400.jpg" />
+              <img className="slid-img" src={img4} />
             </div>
             <div>
-              <img className="slid-img" src="https://s.alicdn.com/@img/imgextra/i1/O1CN01aX23AE1uRABJ4InsG_!!6000000006033-0-tps-990-400.jpg" />
+              <img className="slid-img" src={img5} />
             </div>
           </Carousel>
         </div>
@@ -66,9 +72,9 @@ function Slider1() {
             <span className="slispan2" >Get payment terms and much more</span>
             <button className="slibtn">Upgrade</button>
           </div>
-          <div className="orange">Home & Garden 2021 Online Trade</div>
+          <div className="orange">Home & Garden 2022 Online Trade</div>
           <div className="slider9">
-            <p className="orange2">Home & Garden 2021 Online Trade Show</p>
+            <p className="orange2">Home & Garden 2022 Online Trade Show</p>
             <img className="sliimg" src="https://i.alicdn.com/img/imgextra/i3/O1CN01rHG3DG1wp66sdIKKe_!!6000000006356-2-tps-350-350.png_100x100.jpg" />
           </div>
           <div className="slider9">
