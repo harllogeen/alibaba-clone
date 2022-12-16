@@ -60,7 +60,7 @@ function Dropdown1() {
     return (
         <div className="handleclick-div drop-mneu-onclick">
             <Menu onClick={handleClick} style={{ width: 256 }} mode="vertical">
-                <img className="div-handlclick-menu-img--sub" src="https://sc02.alicdn.com/kf/HTB12RuNUmzqK1RjSZFH7623CpXa6.png_50x50xz.jpg" />
+                <img className="div-handlclick-menu-img--sub" src="./assets/consumer.png" />
                 <SubMenu key="sub1" title="Consumer Electronics" >
                     {arr.map((e, i) => {
                         return (
