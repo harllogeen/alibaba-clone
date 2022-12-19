@@ -1,7 +1,5 @@
 function Cards8() {
-    const arr=[
-
-    ]
+    
     return (
         <>
             <div className="consumer-headtitle-ul-li">
@@ -14,7 +12,7 @@ function Cards8() {
                     <div className="country-div-label-1">
                         <ul>
                             <li className="country-li-flags">
-                                <img className="country" src="https://img.alicdn.com/imgextra/i3/O1CN01Sbi1Tm28po6huT3zL_!!6000000007982-2-tps-48-48.png" />
+                                <img className="country" src="https://img.alicdn.com/imgextra/i3/O1CN01Sbi1Tm28po6huT3zL_!!6000000007982-2-tps-48-48.png"  alt="finally"/>
                                 <span className="country2">&emsp;Russia</span>
                             </li>
                         </ul>
@@ -22,7 +20,7 @@ function Cards8() {
                     <div className="country-div-label-1">
                         <ul>
                             <li className="country-li-flags">
-                                <img className="country" src="https://img.alicdn.com/tfs/TB18omIbIrI8KJjy0FhXXbfnpXa-48-48.png" />
+                                <img className="country" src="https://img.alicdn.com/tfs/TB18omIbIrI8KJjy0FhXXbfnpXa-48-48.png"  alt="finally"/>
                                 <span className="country2">&emsp;USA</span>
                             </li>
                         </ul>
@@ -30,7 +28,7 @@ function Cards8() {
                     <div className="country-div-label-1">
                         <ul>
                             <li className="country-li-flags">
-                                <img className="country" src="https://img.alicdn.com/tfs/TB1U8_xAeH2gK0jSZJnXXaT1FXa-268-179.jpg_50x50.jpg" />
+                                <img className="country" src="https://img.alicdn.com/tfs/TB1U8_xAeH2gK0jSZJnXXaT1FXa-268-179.jpg_50x50.jpg"  alt="finally"/>
                                 <span className="country2">&emsp;Italy</span>
                             </li>
                         </ul>
@@ -38,7 +36,7 @@ function Cards8() {
                     <div className="country-div-label-1">
                         <ul>
                             <li className="country-li-flags">
-                                <img className="country" src="https://img.alicdn.com/tps/TB1QwGEPFXXXXXUaXXXXXXXXXXX-48-48.png" />
+                                <img className="country" src="https://img.alicdn.com/tps/TB1QwGEPFXXXXXUaXXXXXXXXXXX-48-48.png"  alt="finally"/>
                                 <span className="country2">&emsp;Turkey</span>
                             </li>
                         </ul>
@@ -46,7 +44,7 @@ function Cards8() {
                     <div className="country-div-label-1">
                         <ul>
                             <li className="country-li-flags">
-                                <img className="country" src="https://img.alicdn.com/tps/TB1xQi8PFXXXXaRXpXXXXXXXXXX-48-48.png" />
+                                <img className="country" src="https://img.alicdn.com/tps/TB1xQi8PFXXXXaRXpXXXXXXXXXX-48-48.png"  alt="finally"/>
                                 <span className="country2">&emsp;Thailand</span>
                             </li>
                         </ul>
@@ -54,7 +52,7 @@ function Cards8() {
                     <div className="country-div-label-1">
                         <ul>
                             <li className="country-li-flags">
-                                <img className="country" src="	https://img.alicdn.com/tps/TB1xQi8PFXXXXaRXpXXXXXXXXXX-48-48.png" />
+                                <img className="country" src="	https://img.alicdn.com/tps/TB1xQi8PFXXXXaRXpXXXXXXXXXX-48-48.png"  alt="finally"/>
                                 <span className="country2">&emsp;Malaysia</span>
                             </li>
                         </ul>
@@ -62,7 +60,7 @@ function Cards8() {
                     <div className="country-div-label-1">
                         <ul>
                             <li className="country-li-flags">
-                                <img className="country" src="https://img.alicdn.com/tps/TB1WVfXPFXXXXXvXpXXXXXXXXXX-48-48.png" />
+                                <img className="country" src="https://img.alicdn.com/tps/TB1WVfXPFXXXXXvXpXXXXXXXXXX-48-48.png"  alt="finally"/>
                                 <span className="country2">&emsp;South Korea</span>
                             </li>
                         </ul>

@@ -1,8 +1,8 @@
 import * as React from 'react';
 import img from "../img/img.jpg"
 import { useState, useEffect } from 'react';
-import { Avatar } from 'antd';
-import { UserOutlined } from '@ant-design/icons';
+// import { Avatar } from 'antd';
+// import { UserOutlined } from '@ant-design/icons';
 // import Signin from './dropdown2/sign in';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import Signin from './dropdown2/sign in';
@@ -15,7 +15,7 @@ export default function DenseAppBar() {
     //     console.log(window.scrollY);
     // })
 
-    const [scroll, setScroll] = useState(true)
+    const [scroll] = useState(true)
 
     // else{
     //     navbar.classList.remove('navbar');
@@ -58,12 +58,12 @@ export default function DenseAppBar() {
                 }
             })
         }, 2000)
-    }, [])
+    })
     return (
         <>
             <div id="navbarhead" className='nav1'>
                 <div id="navbar" className="nav2">
-                    <img className="img" src={img} />
+                    <img className="img" src={img} alt="toyou" />
                 </div>
                 <div id="navbar3" className="nav3">
                     <select id="navbar5" className="select">

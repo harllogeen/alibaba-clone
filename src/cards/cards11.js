@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 function Cards11() {
 
-    const [scroll, setScroll] = useState(true)
+    const [scroll] = useState(true)
     useEffect(() => {
         setTimeout(() => {
 

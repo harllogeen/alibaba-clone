@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Menu } from 'antd';
 
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
-import { useState } from 'react';
+// import { useState } from 'react';
 
 function Dropdown6() {
     // state = {
@@ -48,7 +48,7 @@ function Dropdown6() {
         "Earphone Accessories",
         "Earphones & Headphones"
     ];
-    const [current, setCurrent] = useState("mail");
+    // const [current, setCurrent] = useState("mail");
     const { SubMenu } = Menu;
 
     const handleClick = (e) => {
@@ -59,7 +59,7 @@ function Dropdown6() {
     return (
         <div>
             <Menu onClick={handleClick} style={{ width: 256 }} mode="vertical">
-                <img className="div-handlclick-menu-img--sub" src="./assets/consumer6.png" />
+                <img className="div-handlclick-menu-img--sub" src="./assets/consumer6.png" alt='notice' />
                 <SubMenu key="sub1" title="Machinery">
                     {names.map((name, i) => {
                         return <Menu.Item className="opt3" key={i}>{name}</Menu.Item>

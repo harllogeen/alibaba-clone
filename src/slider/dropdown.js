@@ -1,8 +1,8 @@
 import * as React from 'react';
 import { Menu } from 'antd';
-import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
+// import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
-import { useState } from 'react';
+// import { useState } from 'react';
 
 function Dropdown1() {
     // state = {
@@ -49,7 +49,7 @@ function Dropdown1() {
         "Earphone Accessories",
         "Earphones & Headphones"
     ];
-    const [current, setCurrent] = useState("mail");
+    // const [current, setCurrent] = useState("mail");
     const { SubMenu } = Menu;
 
     const handleClick = (e) => {
@@ -60,7 +60,7 @@ function Dropdown1() {
     return (
         <div className="handleclick-div drop-mneu-onclick">
             <Menu onClick={handleClick} style={{ width: 256 }} mode="vertical">
-                <img className="div-handlclick-menu-img--sub" src="./assets/consumer.png" />
+                <img className="div-handlclick-menu-img--sub" src="./assets/consumer.png" alt='notice' />
                 <SubMenu key="sub1" title="Consumer Electronics" >
                     {arr.map((e, i) => {
                         return (

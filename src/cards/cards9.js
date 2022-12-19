@@ -10,11 +10,11 @@ function Cards9() {
                         </div>
                     <div className="weeklydeal">
                         <div className="viewchild">
-                            <img className="viewimg1" src="./assets/weekly6.jpg" />
+                            <img className="viewimg1" src="./assets/weekly6.jpg" alt="you" />
                             <button className="viewbtns">view more</button>
                         </div>
                         <div className="viewchild">
-                            <img className="viewimg1" src="./assets/weekly1.jpg" />
+                            <img className="viewimg1" src="./assets/weekly1.jpg" alt="you" />
                             <p className="viewbprice">$8.5</p>
                             <p className="viewbprice2">1 piece(MOQ)</p>
                         </div>
@@ -29,13 +29,13 @@ function Cards9() {
                         </div>
                         <div className="weeklydeal">
                             <div className="viewchild">
-                                <img className="viewimg1" src="./assets/weekly3.jpg" />
+                                <img className="viewimg1" src="./assets/weekly3.jpg" alt="you" />
                                 <button className="viewbtns">view more</button>
                             </div>
                             <div className="viewchild">
-                                <img className="viewimg1" src="./assets/weekly2.jpg" />
+                                <img className="viewimg1" src="./assets/weekly2.jpg" alt="you" />
                                 <p className="viewbprice">$39.98</p>
-                                <img className="viewimg2" src="https://img.alicdn.com/imgextra/i3/O1CN01PlLiQH1nh0ZGfyQ3W_!!6000000005120-1-tps-51-45.gif" />
+                                <img className="viewimg2" src="https://img.alicdn.com/imgextra/i3/O1CN01PlLiQH1nh0ZGfyQ3W_!!6000000005120-1-tps-51-45.gif" alt="you" />
                             </div>
                         </div>
                     </div>
@@ -48,11 +48,11 @@ function Cards9() {
                         </div>
                         <div className="weeklydeal">
                             <div className="viewchild">
-                                <img className="viewimg1" src="./assets/weekly4.jpg" />
+                                <img className="viewimg1" src="./assets/weekly4.jpg" alt="you"  />
                                 <button className="viewbtns">view more</button>
                             </div>
                             <div className="viewchild">
-                                <img className="viewimg1" src="./assets/weekly5.jpg" />
+                                <img className="viewimg1" src="./assets/weekly5.jpg" alt="you" />
                                 <p className="viewbprice">$0.50</p>
                                 <p className="viewbprice2">6 sets(MOQ)</p>
                             </div>

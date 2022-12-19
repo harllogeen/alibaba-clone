@@ -11,6 +11,7 @@ function Cards() {
         {
             value: "Trending Now",
             img: "https://s.alicdn.com/@sc04/kf/Hba7674425abf454b91fe313116799b0es.jpg_120x120.jpg",
+            alt: "common",
             price: "684.39",
         },
         {
@@ -104,14 +105,14 @@ function Cards() {
             <div className="card">
                 <div className="parent">
                     <div className="head-parent">
-                        <img className="parent-img" src="https://img.alicdn.com/tfs/TB1jyqhzy_1gK0jSZFqXXcpaXXa-44-44.png" />
+                        <img className="parent-img" src="https://img.alicdn.com/tfs/TB1jyqhzy_1gK0jSZFqXXcpaXXa-44-44.png" alt="common" />
                         <h4>New Arrivals</h4>
                     </div>
                     <div className="parent4">
                         {arr.map((e, i) => {
                             return (
                                 <div className="key product" key={i}>
-                                    <img className="key4img" src={e.img} />
+                                    <img className="key4img" src={e.img} alt="commonly" />
                                     <p className="price"><br />{e.price}</p>
                                     <p className="value"><br />{e.value}</p>
                                 </div>
