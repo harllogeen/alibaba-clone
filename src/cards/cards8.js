@@ -15,7 +15,7 @@ function Cards8() {
                         <ul>
                             <li className="country-li-flags">
                                 <img className="country" src="https://img.alicdn.com/imgextra/i3/O1CN01Sbi1Tm28po6huT3zL_!!6000000007982-2-tps-48-48.png" />
-                                <span className="country2">Russia</span>
+                                <span className="country2">&emsp;Russia</span>
                             </li>
                         </ul>
                     </div>
@@ -23,7 +23,7 @@ function Cards8() {
                         <ul>
                             <li className="country-li-flags">
                                 <img className="country" src="https://img.alicdn.com/tfs/TB18omIbIrI8KJjy0FhXXbfnpXa-48-48.png" />
-                                <span className="country2">USA</span>
+                                <span className="country2">&emsp;USA</span>
                             </li>
                         </ul>
                     </div>
@@ -31,7 +31,7 @@ function Cards8() {
                         <ul>
                             <li className="country-li-flags">
                                 <img className="country" src="https://img.alicdn.com/tfs/TB1U8_xAeH2gK0jSZJnXXaT1FXa-268-179.jpg_50x50.jpg" />
-                                <span className="country2">Italy</span>
+                                <span className="country2">&emsp;Italy</span>
                             </li>
                         </ul>
                     </div>
@@ -39,7 +39,7 @@ function Cards8() {
                         <ul>
                             <li className="country-li-flags">
                                 <img className="country" src="https://img.alicdn.com/tps/TB1QwGEPFXXXXXUaXXXXXXXXXXX-48-48.png" />
-                                <span className="country2">Turkey</span>
+                                <span className="country2">&emsp;Turkey</span>
                             </li>
                         </ul>
                     </div>
@@ -47,7 +47,7 @@ function Cards8() {
                         <ul>
                             <li className="country-li-flags">
                                 <img className="country" src="https://img.alicdn.com/tps/TB1xQi8PFXXXXaRXpXXXXXXXXXX-48-48.png" />
-                                <span className="country2">Thailand</span>
+                                <span className="country2">&emsp;Thailand</span>
                             </li>
                         </ul>
                     </div>
@@ -55,7 +55,7 @@ function Cards8() {
                         <ul>
                             <li className="country-li-flags">
                                 <img className="country" src="	https://img.alicdn.com/tps/TB1xQi8PFXXXXaRXpXXXXXXXXXX-48-48.png" />
-                                <span className="country2">Malaysia</span>
+                                <span className="country2">&emsp;Malaysia</span>
                             </li>
                         </ul>
                     </div>
@@ -63,7 +63,7 @@ function Cards8() {
                         <ul>
                             <li className="country-li-flags">
                                 <img className="country" src="https://img.alicdn.com/tps/TB1WVfXPFXXXXXvXpXXXXXXXXXX-48-48.png" />
-                                <span className="country2">South Korea</span>
+                                <span className="country2">&emsp;South Korea</span>
                             </li>
                         </ul>
                     </div>

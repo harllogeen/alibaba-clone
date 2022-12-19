@@ -1470,6 +1470,7 @@ span.country2:hover {
 }
 .country-div-label-1 {
     display: flex;
+    cursor: pointer;
 }
 .slider-dropdown-span-p-1{
     display: inline-block;
