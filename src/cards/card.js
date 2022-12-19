@@ -1,7 +1,5 @@
 function Cards() {
 
-
-
     const arr = [
         {
             value: "Trending Now",

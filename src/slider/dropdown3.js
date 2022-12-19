@@ -58,19 +58,12 @@ function Dropdown3() {
     return (
         <div>
             <Menu onClick={handleClick} style={{ width: 256 }} mode="vertical">
-                <img className="div-handlclick-menu-img--sub" src="./assets/consumer3.png" alt='notice'/>
+                <img className="div-handlclick-menu-img--sub" src="./assets/consumer3.png" alt='notice' />
                 <SubMenu key="sub1" title="Apparel">
                     {names.map((name, i) => {
                         return <Menu.Item className="opt3" key={i}>{name}</Menu.Item>
                     })}
                 </SubMenu>
-                {/* <SubMenu key="sub1" title="Buyer Central">
-                                <Menu.Item className="opt" key="1">Blog</Menu.Item>
-                                <Menu.Item className="opt" key="2">Trade Assurance</Menu.Item>
-                                <Menu.Item className="opt" key="3">Production Monitoring & Inspection Services</Menu.Item>
-                                <Menu.Item className="opt" key="4">Logistics Service</Menu.Item>
-                                <Menu.Item className="opt" key="4">Letter of Credit</Menu.Item>
-                            </SubMenu> */}
             </Menu>
 
         </div>

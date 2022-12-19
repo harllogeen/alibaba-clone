@@ -1,5 +1,3 @@
-import Card from '@mui/material/Card';
-
 function Cards6() {
     const arr = [
         {

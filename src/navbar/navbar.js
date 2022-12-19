@@ -1,9 +1,6 @@
 import * as React from 'react';
 import img from "../img/img.jpg"
 import { useState, useEffect } from 'react';
-// import { Avatar } from 'antd';
-// import { UserOutlined } from '@ant-design/icons';
-// import Signin from './dropdown2/sign in';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import Signin from './dropdown2/sign in';
 import Signin2 from './dropdown2/signin2';
@@ -58,7 +55,7 @@ export default function DenseAppBar() {
                 }
             })
         }, 2000)
-    })
+    },[])
     return (
         <>
             <div id="navbarhead" className='nav1'>
